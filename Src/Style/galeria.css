@@ -8,9 +8,8 @@
 
 .galeria_title>h1{
 color: #FFF;
-text-shadow: 6px -1px 0px rgba(0, 0, 0, 0.19);
 font-family: Concert One;
-font-size: 81px;
+font-size: 91px;
 font-style: normal;
 font-weight: 400;
 line-height: 161.1%; /* 130.491px */
@@ -21,6 +20,14 @@ letter-spacing: 3.645px;
 .galeria_title{
     display: flex;
     position: absolute;
+   
+}
+.galeria_title:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  
+    text-shadow: 6px -1px 0px rgba(0, 0, 0, 0.19);
+   
 }
 
 
@@ -30,8 +37,10 @@ letter-spacing: 3.645px;
     width: 100%;
     height: 40px;
     background-color: #C04242 ;
+    box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.31);
 
 }
+
 
 
 .galeria-one{
