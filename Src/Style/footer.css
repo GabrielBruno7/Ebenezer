@@ -51,5 +51,10 @@ footer{
    transform:scale(1.1);
    transition: all 0.1s ease-in-out;
 }
+.logo_footer:hover{
+ 
+   transform:scale(1.1);
+   transition: all 0.2s ease-in-out;
+}
 
 

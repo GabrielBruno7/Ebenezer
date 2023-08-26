@@ -75,4 +75,11 @@ letter-spacing: 3.645px;
    
 }
 
+.img_galeria:hover{
+
+     transform: scale(107%);
+    transition: all 0.5s ease-in-out;
+
+}
+
 

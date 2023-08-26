@@ -23,7 +23,7 @@
     position: absolute;
 }
 .voluntario_title>h1:hover{
-    transform: scale(1.1);
+    transform: scale(1.1) !important;
     transition: all 0.5s ease-in-out;
 }
 

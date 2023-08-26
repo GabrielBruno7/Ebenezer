@@ -38,7 +38,7 @@
    
 }
 .projects_title>h1:hover{
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out !important;
     text-shadow: 6px -1px 0px rgba(0, 0, 0, 0.19);
     transform: scale(1.1);
   
@@ -90,6 +90,12 @@
     cursor: pointer;
 
 }
+.alfabetização_container{
+    width: 253px;
+}
+.alfabetização{
+    letter-spacing: -1.26px !important;
+}
 .projects_Children_Title>h1:hover{
     
     color: white;
@@ -109,6 +115,7 @@
 .images_projects:hover{
     transform: scale(1.1) !important;
     transition: all 0.5s ease-in-out;
+   
     
 }
 .images_projects{
@@ -116,3 +123,6 @@
     
 }
 
+.artesanato{
+letter-spacing: 0.9px !important; 
+}
