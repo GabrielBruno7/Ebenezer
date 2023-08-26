@@ -63,6 +63,7 @@ letter-spacing: 3.645px;
     justify-content: center;
    background-color: #FFD597;
     gap: 5%;
+    
 }
 
 .gg-chevron-left-r, .gg-chevron-right-r{
@@ -82,4 +83,9 @@ letter-spacing: 3.645px;
 
 }
 
+.img_galeria{
+    display: flex;
+    position: relative;
+    bottom: 20px;
+}
 
