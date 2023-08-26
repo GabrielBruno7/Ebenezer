@@ -28,7 +28,7 @@ letter-spacing: 0.97px;
 }
 .one>h1:hover{
     transform: scale(1.1);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out !important;
     text-shadow: 6px -1px 0px rgba(0, 0, 0, 0.19);
   
 }
@@ -67,14 +67,14 @@ letter-spacing: 0.97px;
 }
 .container_text:hover{
     box-shadow: 8px 9px 0px 0px rgba(0, 0, 0, 0.25);
-    transform: scale(105%);
-    transition: all 0.5s ease-in-out;
+    transform: scale(105%)!important;
+    transition: all 0.5s ease-in-out !important;
     
 }
 .container_text_two:hover{
     box-shadow: 8px 9px 0px 0px rgba(0, 0, 0, 0.25);
     transform: scale(105%);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out !important;
     
 }
 
@@ -130,8 +130,8 @@ letter-spacing: 0.97px;
 
 .image_one:hover, .image_two:hover, .image_three:hover{
   
-    transform: scale(105%);
-    transition: all 0.5s ease-in-out;
+    transform: scale(105%) !important;
+    transition: all 0.5s ease-in-out !important;
     
 }
 
