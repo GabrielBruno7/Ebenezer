@@ -23,6 +23,10 @@ html{
     scroll-behavior: smooth;
 }
 
+.donate_image{
+  display: none;
+}
+
 
 
 /* Slideshow container */

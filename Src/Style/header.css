@@ -14,7 +14,7 @@
 }
 
 nav{
- background-color: #C04242;
+ background-color: #8EAC50;
  width: 1024px;
  height: 45px;
  display: flex;
@@ -35,7 +35,10 @@ nav>a{
     transition: all .2s ease-in-out;
 }
 nav>a:hover{
-    color: #FFD597;
+    color: #000000;
     transform: scale(1.1);
 }
 
+header{
+    z-index: 2;
+}
