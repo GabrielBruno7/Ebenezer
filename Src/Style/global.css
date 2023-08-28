@@ -53,3 +53,10 @@ display: none;
   from {opacity: .4}
   to {opacity: 1}
 }
+
+a{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+}

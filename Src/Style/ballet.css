@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+
+.ballet_title{
+    background-color: rgb(255, 255, 255);
+    width: 1024px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ballet_title>h1{
+    color:#FFD597;
+    
+    font-family: Concert One;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 161.1%; 
+    display: flex;
+    position: absolute;
+}
+.ballet_title>h1:hover{
+    transform: scale(1.1) !important;
+    transition: all 0.5s ease-in-out;
+    text-shadow: 6px -1px 0px rgba(0, 0, 0, 0.20);
+}
+
+.line_ballet{
+    background-color: #C04242;
+    height: 40px;
+    width: 100%;
+    box-shadow: 0px 8px 8px -2px rgba(0, 0, 0, 0.17);
+}
+
+
+.ballet_container{
+   
+    align-items: center;
+    justify-content: center;
+    width: 1024px;
+    height: 615px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.text_container{
+    width: 695px;
+    height: 287px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    overflow-y: scroll;
+    
+}
+.text_container:hover{
+    transform: scale(1.1) !important;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 7px 10px 10px 0px rgba(0, 0, 0, 0.33);
+    
+   
+}
+.text_container>p{
+    color: #000;
+    font-family: Asap;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 136.6%; /* 24.588px */
+    letter-spacing: 1.44px;
+    padding: 5%;
+}
+
+.img_galeria{
+    border-radius: 22px;
+}
+.img_galeria:hover{
+  box-shadow: 7px 10px 10px 0px rgba(0, 0, 0, 0.33);
+}
+
+
+
+.text-ballet{
+    width: 100%;
+    height: 75%;
+    background-color: #FFD597;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.galeria-ballet{
+    width: 100%;
+    height: 35%;
+    background-color: #FFD597;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.next, .prev{
+    display: flex;
+    position: relative;
+    bottom:10px
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #C04242 ;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+    
+  }
+  
+  *::-webkit-scrollbar-track {
+    background:  white;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #C04242;
+    border-radius: 20px;
+   
+  }
+
+
+

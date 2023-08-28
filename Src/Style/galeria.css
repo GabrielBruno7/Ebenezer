@@ -84,6 +84,7 @@ letter-spacing: 3.645px;
 }
 
 .img_galeria{
+    
     display: flex;
     position: relative;
     bottom: 20px;

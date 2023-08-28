@@ -120,3 +120,25 @@
     transition: all 0.5s ease-in-out;
 
 }
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #C04242 ;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+    
+  }
+  
+  *::-webkit-scrollbar-track {
+    background:  #FFD597;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #C04242;
+    border-radius: 20px;
+   
+  }
