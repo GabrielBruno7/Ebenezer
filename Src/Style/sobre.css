@@ -95,6 +95,11 @@
     display: flex;
     flex-direction: row;
 }
+.image_three{
+    width: 100px;
+    height: 300px;
+    background-color: var(--white);
+}
 
 .title_three{
     width: 617px;
