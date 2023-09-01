@@ -160,3 +160,10 @@
 .card_one, .card_two, .card_three{
     z-index: 2;
 }
+
+.card_three_image{
+   width: 260px;
+   height: 440px;
+   background-color: white;   
+   display: flex;
+}
