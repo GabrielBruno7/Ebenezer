@@ -1,0 +1,161 @@
+.sobre{
+    width: 1024px;
+    height: 1887px;
+    background-color: var(--green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.card_one{
+
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title{
+    width: 754px;
+    height: 97.451px;
+    flex-shrink: 0;
+    background-color: var(--dark_green);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.title>h1{
+    font-family: Concert One;
+    font-size: 73px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 161.1%;
+    letter-spacing: 4.745px;
+    color: var(--white);
+    
+}
+.first_card{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.green_card{
+    width: 574px;
+    height: 427.208px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 150px 0px;
+    background-color: var(--dark_green);
+}
+.green_card>p{
+    font-family: Asap;
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 142.6%;
+    letter-spacing: 2.53px;
+    color: var(--white);
+    padding: 7%;
+}
+
+.two_card{
+
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.green_card_two{
+   
+    width: 574px;
+    height: 562px;
+    flex-shrink: 0; 
+    border-radius: 0px 0px 0px 49px;
+    background-color: var(--dark_green);
+}
+
+.green_card_two>p{
+    color: var(--white);
+    font-family: Asap;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 142.6%; 
+    letter-spacing: 2.42px;
+    padding: 7%;
+}
+
+.card_three{
+    display: flex;
+    flex-direction: row;
+}
+
+.title_three{
+    width: 617px;
+    height: 61.03px;
+    flex-shrink: 0;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.three_card{
+    display: flex;
+    flex-direction: column;
+}
+
+.title_three>h1{
+    color: var(--dark_green);
+    font-family: Concert One;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 161.1%;
+    letter-spacing: 3.51px;
+}
+
+.card_text_three{
+    width: 617px;
+    height: 379.959px;
+    flex-shrink: 0;
+    background-color: var(--dark_green);
+
+
+}
+
+.card_text_three>p{
+    
+    font-family: Asap;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 50;
+    line-height: 139.6%;
+    letter-spacing: 1px;
+    color: var(--white);
+    padding: 4%;
+
+}
+
+
+.white_bar{
+    width: 82px;
+    height: 1496.213px;
+    flex-shrink: 0;
+    background-color: var(--white);
+    display: flex;
+    left: 1169px;
+    top: 460px;
+    position: absolute;
+    z-index: 1;
+}
+
+.card_one, .card_two, .card_three{
+    z-index: 2;
+}

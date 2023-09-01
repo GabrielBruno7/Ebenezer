@@ -5,6 +5,11 @@
 
 
 
+:root{
+  --green: #8EAC50;
+  --dark_green: #1B514E;
+  --white: white;
+}
 
 *{
     margin: 0; padding: 0;

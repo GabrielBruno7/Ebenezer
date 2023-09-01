@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,600;1,600&display=swap');
 
 .section_white{
-    background-color: white;
+    background-color: var(--white);
     width: 1024px;
     height: 119px;
     display: flex;
@@ -14,7 +14,7 @@
 }
 
 nav{
- background-color: #8EAC50;
+ background-color: var(--dark_green);
  width: 1024px;
  height: 45px;
  display: flex;
