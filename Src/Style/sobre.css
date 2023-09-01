@@ -91,79 +91,47 @@
     padding: 7%;
 }
 
+
 .card_three{
     display: flex;
     flex-direction: row;
 }
 
-
 .title_three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 617px;
     height: 61.03px;
     flex-shrink: 0;
     background-color: var(--white);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-
-.three_card{
-    display: flex;
-    flex-direction: column;
-}
-
 .title_three>h1{
-    color: var(--dark_green);
+    
     font-family: Concert One;
     font-size: 54px;
     font-style: normal;
     font-weight: 400;
-    line-height: 161.1%;
+    line-height: 161.1%; 
     letter-spacing: 3.51px;
+    color: var(--dark_green);
 }
 
-.card_text_three{
+.green_card_three{
     width: 617px;
     height: 379.959px;
     flex-shrink: 0;
     background-color: var(--dark_green);
-
-
 }
-
-.card_text_three>p{
+.green_card_three>p{
     
+    color: var(--wHITE, #FFF);
     font-family: Asap;
     font-size: 19px;
     font-style: italic;
-    font-weight: 50;
+    font-weight: 400;
     line-height: 139.6%;
-    letter-spacing: 1px;
+    letter-spacing: 0.095px;
     color: var(--white);
     padding: 4%;
-
-}
-
-
-.white_bar{
-    width: 82px;
-    height: 1496.213px;
-    flex-shrink: 0;
-    background-color: var(--white);
-    display: flex;
-    left: 1169px;
-    top: 460px;
-    position: absolute;
-    z-index: 1;
-}
-
-.card_one, .card_two, .card_three{
-    z-index: 2;
-}
-
-.card_three_image{
-   width: 260px;
-   height: 440px;
-   background-color: white;   
-   display: flex;
 }
