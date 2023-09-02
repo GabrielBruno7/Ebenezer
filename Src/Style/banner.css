@@ -4,7 +4,8 @@ section.slider{
     height: 246px;
     padding: 0 !important;
     overflow: hidden;
-    background-color: #F2EE9D;
+    background-color: var(--dark_green);
+    
 }
 
 .slider-content{
