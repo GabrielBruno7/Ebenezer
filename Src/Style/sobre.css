@@ -8,6 +8,31 @@
     justify-content: space-around;
     
 }
+.white-container{
+    width: 1024px;
+    position: absolute;
+    height: 1887px;
+    
+    
+    display: flex;
+    justify-content: end;
+
+}
+
+.white-bar{
+    width: 82px;
+    height: 1341px;
+    background-color: var(--white);
+    margin-top: 50px;
+    margin-right: 73px;
+    z-index: 1;
+
+}
+
+.card_one, .card_two, .card_three{
+    z-index: 2;
+}
+
 
 .card_one{
 
@@ -46,11 +71,12 @@
 
 .green_card{
     width: 574px;
-    height: 427.208px;
+    height: 428px;
     flex-shrink: 0;
     border-radius: 0px 0px 150px 0px;
     background-color: var(--dark_green);
 }
+
 .green_card>p{
     font-family: Asap;
     font-size: 23px;
@@ -102,7 +128,8 @@
     justify-content: center;
     align-items: center;
     width: 617px;
-    height: 61.03px;
+    margin-top: 1px;
+    height: 60px;
     flex-shrink: 0;
     background-color: var(--white);
 }
@@ -119,7 +146,7 @@
 
 .green_card_three{
     width: 617px;
-    height: 379.959px;
+    height: 381px;
     flex-shrink: 0;
     background-color: var(--dark_green);
 }
@@ -135,3 +162,47 @@
     color: var(--white);
     padding: 4%;
 }
+
+
+
+.card_one:hover .title{
+    
+    transition: all 1s ease-in-out;
+    transform: scale(103%);
+    box-shadow: 8px 6px 8px 0px rgba(0, 0, 0, 0.39);
+
+
+}
+.card_one:hover .title>h1{
+   
+    transition: all 1s ease-in-out;
+    transform: scale(110%);
+    color: var(--green);
+   
+
+
+}
+
+.first_card:hover .green_card {
+   
+    transition: all 1s ease-in-out;
+    transform: scale(103%);
+    box-shadow: 8px 6px 8px 0px rgba(0, 0, 0, 0.39);
+}
+.card_two:hover .green_card_two{
+    
+    transition: all 1s ease-in-out;
+    transform: scale(103%);
+    box-shadow: 8px 6px 8px 0px rgba(0, 0, 0, 0.39);
+}
+.card_three:hover .green_card_three{
+    transition: all 1s ease-in-out;
+    transform: scale(101%);
+    box-shadow: 8px 6px 8px 0px rgba(0, 0, 0, 0.39);
+}
+.card_three:hover .title_three>h1{
+    transition: all 1s ease-in-out;
+    transform: scale(101%);
+    color: var(--green);
+}
+
