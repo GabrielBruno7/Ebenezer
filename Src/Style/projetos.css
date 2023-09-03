@@ -35,13 +35,6 @@
     line-height: 161.1%;
 }
 
-.projects_title>h1:hover{
-    transition: all 0.5s ease-in-out !important;
-    text-shadow: 6px -1px 0px var(--dark_green);
-    transform: scale(1.1)!important;
-  
-}
-
 
 .two_projects{
     width: 100%;
@@ -94,12 +87,7 @@
 .alfabetização{
     letter-spacing: -1.26px !important;
 }
-.projects_Children_Title>h1:hover{
-    
-    color: var(--dark_green);
-    transition: all 0.3s ease-in-out;
- 
-}
+
 .projects_Children_Title>h1{
     color: var(--white);
     font-family: Concert One;
@@ -115,16 +103,21 @@
     transition: all 0.5s ease-in-out;
   
 }
-.images_projects:hover {
-    transform: scale(1.1) !important;
-    transition: all 0.5s ease-in-out;
-  
-}
-.images_projects{
+
+.images_projects:hover .projects_Children_Title>h1{
  cursor: pointer;
+ display: none;
     
 }
 
 .artesanato{
 letter-spacing: 0.9px !important; 
 }
+
+.card:hover .title_hover {
+    
+color: var(--dark_green);
+transition: all 0.3s ease-in-out;
+     
+}
+
