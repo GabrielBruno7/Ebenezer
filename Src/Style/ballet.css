@@ -1,139 +1,130 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
-
-
-.ballet_title{
-    background-color: rgb(255, 255, 255);
+.container{
     width: 1024px;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-.ballet_title>h1{
-    color:#F2EE9D;
-    
-    font-family: Concert One;
-    font-size: 120px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 161.1%; 
-    display: flex;
-    position: absolute;
-}
-.ballet_title>h1:hover{
-    transform: scale(103%) !important;
-    text-shadow: 6px -1px 0px rgba(0, 0, 0, 0.20);
-    color: #747142;
-    transition: all 7s ease-in-out;
-  
-    z-index: 1;
-}
-
-.line_ballet{
-    background-color: #8EAC50;
-    height: 40px;
-    width: 100%;
-    box-shadow: 0px 8px 8px -2px rgba(0, 0, 0, 0.17);
-}
-
-
-.ballet_container{
-   
-    align-items: center;
-    justify-content: center;
-    width: 1024px;
-    height: 615px;
+   height: 2117px;
+    background-color: var(--green);
     display: flex;
     flex-direction: column;
-  
-}
-
-.text_container{
-    width: 695px;
-    height: 287px;
-    flex-shrink: 0;
-    border-radius: 20px;
-    background: #FFF;
-    overflow-y: scroll;
-    
-}
-.text_container:hover{
-    transform: scale(1.1) !important;
-    transition: all 0.5s ease-in-out;
-    box-shadow: 7px 10px 10px 0px rgba(0, 0, 0, 0.33);
-    
-   
-}
-.text_container>p{
-    color: #000;
-    font-family: Asap;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 136.6%; /* 24.588px */
-    letter-spacing: 1.44px;
-    padding: 5%;
-}
-
-.img_galeria{
-    border-radius: 22px;
-}
-.img_galeria:hover{
-  box-shadow: 7px 10px 10px 0px rgba(0, 0, 0, 0.33);
-}
-
-
-
-.text-ballet{
-    width: 100%;
-    height: 75%;
-    background-color: #F2EE9D;
-    display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
 }
-
-
-.galeria-ballet{
-    width: 100%;
-    height: 35%;
-    background-color: #F2EE9D;
+.container_title{
+    width: 913px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    gap: 30px;
 }
 
-.next, .prev{
+.container_title>h1{
+    color: var(--white);
+    font-family: Concert One;
+    font-size: 180px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.white-little-bar{
+    background-color: var(--white);
+    width: 342px;
+    height: 50px;
+}
+
+.container-one{
+  
     display: flex;
-    position: relative;
-    bottom:10px
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 913px;
 }
 
-/* Works on Firefox */
-* {
-    scrollbar-width: thin;
-    scrollbar-color: #8EAC50 ;
-  }
-  
-  /* Works on Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 12px;
+.text-container-one{
+    background-color: var(--dark_green);
+    width: 581px;
+    height: 394px;
+    flex-shrink: 0;
     
-  }
+}
+
+.text-container-one>p{
+    color: var(--wHITE, #FFF);
+    font-family: Asap;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 123.6%; 
+    margin: 3%;
+    text-align: left;
+}
+
+.container-two{
   
-  *::-webkit-scrollbar-track {
-    background:  white;
-  }
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 913px;
+}
+
+.text-container-two{
+    background-color: var(--dark_green);
+    width: 615px;
+    height: 599px;
+    align-items: center;
+    flex-shrink: 0;
+    
+    
+}
+
+.text-container-two>p{
+    color: var(--white);
+    font-family: Asap;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 144.6%; /* 39.042px */
+    margin: 3%;
+    text-align: left;
+}
+.container-three{
   
-  *::-webkit-scrollbar-thumb {
-    background-color: #8EAC50;
-    border-radius: 20px;
-   
-  }
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 913px;
+}
+
+.text-container-three{
+    background-color: var(--dark_green);
+    width: 615px;
+    height: 309px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.text-container-three>p{
+    color: var(--white);
+    font-family: Asap;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 144.6%; /* 39.042px */
+    margin: 3%;
+    text-align: left;
+}
+
+.container-images{
+ 
+    width: 913px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
 
 
 

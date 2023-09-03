@@ -9,7 +9,7 @@
   --green: #8EAC50;
   --dark_green: #1B514E;
   --white: white;
-  --saco: absolute;
+ 
 }
 
 *{
@@ -86,7 +86,7 @@ a:visited{
   position: fixed ;
   margin-top: 52.9%;
   text-align: center;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 #myBtn:hover {
