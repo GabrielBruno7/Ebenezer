@@ -22,6 +22,11 @@
     font-weight: 400;
     line-height: normal;
 }
+.title-violao>h1:hover{
+    transform: scale(110%) !important;
+    color: var(--dark_green);
+    transition: all 0.1s ease-in-out;
+}
 
 .white-bar{
     width: 374px;
@@ -100,4 +105,13 @@
 .banner-violao, .section-one, .section-two, .container-images{
     z-index: 2;
 }
+img:hover{
 
+    transform: scale(93%) !important;
+    transition: all 0.5s ease-in-out;
+
+}
+p:hover{
+    transform: scale(95%) !important;
+    transition: all 0.5s ease-in-out;
+}
