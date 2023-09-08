@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .title-violao{
@@ -25,7 +25,7 @@
 
 .white-bar{
     width: 374px;
-    height: 75.405px;
+    height: 69px;
     flex-shrink: 0;
     background-color: var(--white);
 }
@@ -76,4 +76,28 @@
 }
 
 
+.container-images{
+    
+    width: 913px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.white-bar-background{
+    background-color: var(--white);
+    position: absolute;
+    width: 58px;
+    height: 1466px;
+    flex-shrink: 0;
+    margin-left: 855px;
+    z-index: 1;
+    margin-bottom: 2px;
+}
+
+.banner-violao, .section-one, .section-two, .container-images{
+    z-index: 2;
+}
 
