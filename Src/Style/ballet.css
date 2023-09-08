@@ -164,33 +164,3 @@ p:hover{
 }
 
 
-#myBtn {
-    display: none;
-    height: 48px;
-    width: 50px;
-    z-index: 99; 
-    border: none;
-    outline: none; 
-    background-color: var(--green);
-    color: var(--white);
-    cursor: pointer;
-    position: fixed ;
-    
-    text-align: center;
-    font-size: 20px;
-  }
-  
-  #myBtn:hover {
-    transition: all 1s ease-in-out;
-    transform: scale(103%);
-    background-color: var(--dark_green); 
-  }
-  
-  .bar-scroll{
-    width: 100px;
-    height: 2445px;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    margin-left: 1123px;
-  }

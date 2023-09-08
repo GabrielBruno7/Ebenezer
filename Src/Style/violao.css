@@ -1,14 +1,15 @@
-.container{
+.container {
     width: 1024px;
-   height: 1680px;
+    height: 1680px;
     background-color: var(--green);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-   
+
 }
-.container_title{
+
+.container_title {
     width: 912px;
     display: flex;
     flex-direction: row;
@@ -16,7 +17,7 @@
     align-items: center;
 }
 
-.container_title>h1{
+.container_title>h1 {
     color: var(--white);
     font-family: Concert One;
     font-size: 180px;
@@ -25,7 +26,8 @@
     line-height: normal;
 
 }
-.container_title>h1:hover{
+
+.container_title>h1:hover {
     transform: scale(110%) !important;
     color: var(--dark_green);
     transition: all 0.1s ease-in-out;
@@ -33,110 +35,113 @@
 
 }
 
-.white-little-bar{
+.white-little-bar {
     background-color: var(--white);
     width: 342px;
     height: 70px;
 }
 
 
-.container-one{
-  
+.container-one {
+
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     width: 913px;
 }
 
-.text-container-one{
+.text-container-one {
     background-color: var(--dark_green);
     width: 720px;
     height: 504px;
     flex-shrink: 0;
-        
+
 }
 
-.text-container-one>p{
+.text-container-one>p {
     color: var(--wHITE, #FFF);
     font-family: Asap;
     font-size: 27px;
     font-style: italic;
     font-weight: 400;
-    line-height: 123.6%; 
+    line-height: 123.6%;
     margin: 3%;
     text-align: left;
 }
 
-.container-two{
-  
+.container-two {
+
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     width: 913px;
 }
 
-.text-container-two{
+.text-container-two {
     background-color: var(--dark_green);
     width: 580px;
     height: 350px;
     flex-shrink: 0;
     align-items: center;
 
-    
-    
+
+
 }
 
-.text-container-two>p{
+.text-container-two>p {
     color: var(--white);
     font-family: Asap;
     font-size: 27px;
     font-style: italic;
     font-weight: 400;
-    line-height: 144.6%; /* 39.042px */
+    line-height: 144.6%;
+    /* 39.042px */
     margin: 7%;
     text-align: left;
 }
-.container-three{
-  
+
+.container-three {
+
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     width: 913px;
 }
 
-.text-container-three{
+.text-container-three {
     background-color: var(--dark_green);
     width: 615px;
     height: 309px;
     flex-shrink: 0;
     display: flex;
     align-items: center;
-    
+
 }
 
-.text-container-three>p{
+.text-container-three>p {
     color: var(--white);
     font-family: Asap;
     font-size: 27px;
     font-style: italic;
     font-weight: 400;
-    line-height: 144.6%; /* 39.042px */
+    line-height: 144.6%;
+    /* 39.042px */
     margin: 3%;
     text-align: left;
 }
 
-.container-images{
- 
+.container-images {
+
     width: 913px;
     height: auto;
     display: flex;
     justify-content: space-between;
 }
 
-.white-bar-container{
+.white-bar-container {
     width: 80px;
     height: 1516px;
     background-color: var(--white);
@@ -148,51 +153,24 @@
     z-index: 3;
 }
 
-.container-one, .container-two, .container-three, .container-images, .imagem_banner{
+.container-one,
+.container-two,
+.container-three,
+.container-images,
+.imagem_banner {
     z-index: 4;
 }
 
-.hover_image:hover{
+.hover_image:hover {
 
     transform: scale(90%) !important;
     transition: all 0.5s ease-in-out;
 
 }
-p:hover{
+
+p:hover {
 
     transform: scale(95%) !important;
     transition: all 0.5s ease-in-out;
 
 }
-
-
-#myBtn {
-    display: none;
-    height: 48px;
-    width: 50px;
-    z-index: 99; 
-    border: none;
-    outline: none; 
-    background-color: var(--green);
-    color: var(--white);
-    cursor: pointer;
-    position: fixed ;
-    
-    text-align: center;
-    font-size: 20px;
-  }
-  
-  #myBtn:hover {
-    transition: all 1s ease-in-out;
-    transform: scale(103%);
-    background-color: var(--dark_green); 
-  }
-  
-  .bar-scroll{
-    width: 100px;
-    height: 1445px;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    margin-left: 1123px;
-  }
