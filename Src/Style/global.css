@@ -20,7 +20,7 @@
 }
 
 body{
-  background-image: linear-gradient(to bottom, #8eac50, #619757, #3c815a, #236958, #1b514e);
+  background-image: linear-gradient(to bottom, #20cfa3, #20cfa3, #417065, #20cfa3, #20cfa3);
     display: flex;
     flex-direction: column;
     align-items: center;
