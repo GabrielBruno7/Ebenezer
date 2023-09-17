@@ -1,0 +1,360 @@
+.section{
+    height: 4015px;
+    width: 1024px;
+    background-color:var(--green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+   
+}
+
+.title_container{
+    background-color: var(--green);
+    width: 100%;
+    height: 277px;
+    display: flex;
+    flex-direction: column;
+}
+
+.background_container{
+    background-color: var(--white);
+    width: 100%;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background_container>h1{
+    color: var(--dark_green);
+    font-family: Concert One;
+    font-size: 254px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 2%;
+}
+
+.down_background_container{
+    background-color: var(--dark_green);
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.down_background_container>h1{
+    color: var(--white);
+    font-family: Concert One;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 29.1px;
+
+}
+.down_background_container>h1:hover{
+        transform: scale(93%) !important;
+        transition: all 0.5s ease-in-out;
+
+
+}
+.background_container>h1:hover{
+        transform: scale(93%) !important;
+        transition: all 0.5s ease-in-out;
+
+
+}
+
+.presentation_container{
+  
+    width: 100%;
+    height: 484px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.gradient_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 971px;
+    height: 440px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #1B514E 0%, rgba(27, 81, 78, 0.84) 10.6%, rgba(27, 81, 78, 0.00) 100%);
+}
+
+.text-presentation{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: var(--white);
+    font-family: Concert One;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88.881%;
+    letter-spacing: -0.19px;
+}
+.text-presentation>p{
+  margin: 4%;
+}
+
+.image-presentation{
+    padding-right: 4%;
+}
+
+
+.oftalmologico{
+    width: 1024px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.title_oftalmologico{
+    background-color: var(--dark_green);
+    width: 1024px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title_oftalmologico>h1{
+    color: var(--white);
+    font-family: Concert One;
+    font-size: 63px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 83.381%;
+    letter-spacing: 0.63px;
+}
+
+.card-text{
+    width: 712px;
+    height: 384px;
+    flex-shrink: 0;
+    border-radius: 33px;
+    background-color: var(--dark_green);
+}
+.card-text>p{
+    color: var(--white);
+    font-family: Asap;
+    font-size: 33px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 83.381%;
+    letter-spacing: 0.185px;
+    margin: 4%;
+}
+
+.card-main{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.repouso{
+    width: 1024px;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--green);
+    
+}
+
+.title_repouso{
+    background-color: var(--dark_green);
+    width: 1024px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title_repouso>h1{
+    color: var(--white);
+    font-family: Concert One;
+    font-size: 63px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 83.381%;
+    letter-spacing: 0.63px;
+}
+
+.card-text-repouso{
+    width: 669px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 33px;
+    background-color: var(--dark_green);
+}
+.card-text-repouso>p{
+    color: var(--white);
+    font-family: Asap;
+    font-size: 37px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 92.881%; /* 34.366px */
+    letter-spacing: 0.185px;
+    margin: 3%;
+}
+
+.card-main-repouso{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+ 
+}
+
+.criança{
+    width: 1024px;
+    height: 1256px;
+    background-color: var(--green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.title_criança{
+    background-color: var(--dark_green);
+    width: 1024px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title_criança>h1{
+    color: var(--white);
+    font-family: Concert One;
+    font-size: 63px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 83.381%;
+    letter-spacing: 0.63px;
+}
+
+.card-text-criança{
+    width: 647px;
+    height: 453px;
+    flex-shrink: 0;
+    border-radius: 33px;
+    background: linear-gradient(180deg, #1B514E 0%, rgba(27, 81, 78, 0.84) 10.6%, rgba(27, 81, 78, 0.00) 100%);
+}
+.card-text-criança>p{
+    color: var(--white);
+    font-family: Asap;
+    font-size: 37px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 92.881%; /* 34.366px */
+    letter-spacing: 0.185px;
+    margin: 3%;
+}
+.card-text-criança-two{
+    width: 685px;
+    height: 502px;
+    flex-shrink: 0;
+    border-radius: 33px;
+    background-color: var(--dark_green);
+}
+.card-text-criança-two>p{
+    color: var(--white);
+    font-family: Asap;
+    font-size: 37px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 97.381%; /* 36.031px */
+    letter-spacing: 0.185px;
+    margin: 4%;
+}
+
+.card-main-criança{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+ 
+}
+
+.card-main-criança-two{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+ 
+}
+
+
+.rosa{
+    width: 1024px;
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--green);
+    
+}
+
+.title_rosa{
+    background-color: var(--dark_green);
+    width: 1024px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title_rosa>h1{
+    color: var(--white);
+    font-family: Concert One;
+    font-size: 63px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 83.381%;
+    letter-spacing: 0.63px;
+}
+
+.card-text-rosa{
+    width: 732px;
+    height: 507px;
+    flex-shrink: 0;
+    border-radius: 33px;
+    background: linear-gradient(180deg, #1B514E 0%, rgba(27, 81, 78, 0.84) 10.6%, rgba(27, 81, 78, 0.00) 100%);
+}
+.card-text-rosa>p{
+    color: var(--wHITE, #FFF);
+    font-family: Asap;
+    font-size: 37px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 97.381%; /* 36.031px */
+    letter-spacing: 0.185px;
+    margin: 3%;
+}
+
+.card-main-rosa{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+ 
+}
+
+img:hover{
+
+    transform: scale(93%) !important;
+    transition: all 0.5s ease-in-out;
+
+}
+p:hover{
+    transform: scale(95%) !important;
+    transition: all 0.5s ease-in-out;
+}
