@@ -20,7 +20,14 @@
 }
 
 body{
-  background-image: linear-gradient(to bottom, #20cfa3, #20cfa3, #417065, #20cfa3, #20cfa3);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "cv11", "salt","ss01","ss03","cv01","cv02","cv03","cv04","cv05","cv06","cv09","cv10",;
+  background: rgb(30,101,17);
+  background: -moz-radial-gradient(circle, rgba(30,101,17,1) 0%, rgba(220,255,226,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(30,101,17,1) 0%, rgba(220,255,226,1) 100%);
+
     display: flex;
     flex-direction: column;
     align-items: center;
