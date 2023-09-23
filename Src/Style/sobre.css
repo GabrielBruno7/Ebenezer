@@ -12,10 +12,9 @@
     width: 1024px;
     position: absolute;
     height: 1887px;
-    
-    
     display: flex;
     justify-content: end;
+  
 
 }
 
@@ -24,7 +23,7 @@
     height: 1341px;
     background-color: var(--white);
     margin-top: 50px;
-    margin-right: 73px;
+    margin-right: 74px;
     z-index: 1;
 
 }

@@ -17,7 +17,7 @@
   </head>
   <body>
 
-    <header id="header">
+    <header data-aos="fade-right" id="header">
 
       <div  class="section_white">
 
@@ -39,11 +39,53 @@
         <a data-aos="zoom-in-right" href="/index.html#projects">PROJETOS</a>
         <a data-aos="zoom-in-right" href="/Src/Pages/voluntarios.html">VOLUNTÁRIOS</a>
         <a data-aos="zoom-in-left" href="/index.html#about_us">SOBRE NÓS</a>
-        <a data-aos="zoom-in-left" href="#footer">CONTATO</a>
+        <a data-aos="zoom-in-left" href="/Src/Pages/contato.html">CONTATO</a>
         <a data-aos="zoom-in-left" href="/index.html#galeria">GALERIA</a>
       </nav>
 
     </header>
+
+    <div  class="contato_title">
+      <div class="line_contato"></div>
+      <h1 data-aos="fade-up" >CONTATO</h1>
+    </div>
+
+    <div class="section">
+
+      <div class="form_container">
+
+        <div data-aos="fade-right" class="image_form">
+          <img src="/Src/public/contato/foto1.png" alt="">
+        </div>
+
+        <div data-aos="fade-left" class="form_field">
+
+          <form action="https://formsubmit.co/gabriel.bruno1w@gmail.com" method="POST">
+
+            <label for="text">NOME</label>
+            <input type="text" placeholder="Digite seu nome" name="name" required>
+
+            <label for="email">EMAIL</label>
+            <input type="email" placeholder="Digite seu email" name="email" required>
+
+            <label for="mensagem">MENSAGEM</label>
+            <input class="text-area" type="text" placeholder="Digite sua mensagem" name="mensagem" required>
+
+            <button type="submit">Enviar</button>
+       </form>
+          
+        </div>
+      </div>
+
+      <div data-aos="flip-down" class="map_container">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3762.471316001309!2d-44.2029345!3d-19.4352359!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa645b6166a5235%3A0x45585de3e83c87ea!2sProjeto%20Social%20Eben%C3%A9zer!5e0!3m2!1spt-BR!2sbr!4v1695470996015!5m2!1spt-BR!2sbr" width="810" height="310" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+      </div>
+
+    
+      
+    </div>
     
 
     <footer id="footer">
