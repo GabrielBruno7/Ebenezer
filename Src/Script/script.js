@@ -14,4 +14,16 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0; 
   document.documentElement.scrollTop = 0; 
-}
+};
+
+
+var menuButton = document.getElementById("menu-button");
+var menu = document.getElementById("menu");
+
+menuButton.addEventListener("click", function() {
+  if (menu.style.display === "none") {
+    menu.style.display = "flex";
+  } else {
+    menu.style.display = "none";
+  }
+});

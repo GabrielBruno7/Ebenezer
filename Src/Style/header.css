@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,600;1,600&display=swap');
 
+
+.Icon_div,
+.menu_hamb{
+    display: none;
+}
 .section_white{
     background-color: var(--white);
     width: 1024px;
@@ -49,4 +54,67 @@ nav>a:hover{
 
 header{
     z-index: 2;
+}
+
+@media screen and (max-width: 425px) {
+
+    .menu_hamb{
+        background-color:var(--white);
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        padding: 10px;
+        margin-left: 301px;
+        margin-top: 346px;
+        z-index: 3;
+       
+    }
+
+    .sobre{
+        z-index: 1;
+    }
+    
+    .menu_hamb>a{
+        font-family: Asap;
+        font-weight: 600;
+        text-decoration: none;
+        color: var(--dark_green);
+    }
+
+
+
+
+    .section_white{
+        width: 425px;
+        display: flex; 
+    }
+
+    header{
+        background-color: red;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo_image{
+        padding-left: 90px;
+        width: 100%;
+      
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    nav{
+        display: none;
+    }
+
+   .Icon_div{
+    display: flex;
+    margin-right: 40px;
+   }
+
 }
